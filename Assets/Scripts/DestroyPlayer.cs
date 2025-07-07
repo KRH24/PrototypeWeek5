@@ -13,11 +13,11 @@ public class DestroyPlayer : MonoBehaviour
             Destroy(other.gameObject);
 
         } 
-        if (other.gameObject.CompareTag("Walls"))
-        {
-            Destroy(other.gameObject);
+       // if (other.gameObject.CompareTag("Wall"))
+       // {
+           // Destroy(other.gameObject);
 
-        }   
+        //}   
 
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
